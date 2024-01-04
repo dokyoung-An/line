@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.8/20017
 // Filename: ??????.ggsk
-// Generated 2024-01-04T11:40:37
+// Generated 2024-01-04T11:53:42
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_button_1', 2, false, { ignoreInState: 0  });
@@ -16631,7 +16631,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='background : rgba(255,255,255,0.705882);';
 		hs+='border : 0px solid #000000;';
-		hs+='border-radius : 20px;';
+		hs+='border-radius : 30px;';
 		hs+='bottom : -55px;';
 		hs+='color : rgba(34,34,34,1);';
 		hs+='cursor : default;';
@@ -16654,7 +16654,7 @@ function pano2vrSkin(player,base) {
 		hs+='top: 50%;';
 		hs+='transform: translate(0, -50%);';
 		hs+='white-space: pre;';
-		hs+='padding: 5px;';
+		hs+='padding: 7px;';
 		hs+='overflow: hidden;';
 		hs+='overflow-y: auto;';
 		els.setAttribute('style',hs);
@@ -16942,12 +16942,12 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : pointer;';
-		hs+='height : 80px;';
-		hs+='left : calc(50% - ((80px + 0px) / 2) + 0px);';
+		hs+='height : 100px;';
+		hs+='left : calc(50% - ((100px + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
-		hs+='top : calc(50% - ((80px + 0px) / 2) + 0px);';
+		hs+='top : calc(50% - ((100px + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 80px;';
+		hs+='width : 100px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -16985,10 +16985,10 @@ function pano2vrSkin(player,base) {
 					skin.updateSize(me._external_10);
 				}
 				else {
-					me._external_10.style.width='80px';
-					me._external_10.style.height='80px';
-					me._external_10.style.left = 'calc(50% - (80px / 2))';
-					me._external_10.style.top = 'calc(50% - (80px / 2))';
+					me._external_10.style.width='100px';
+					me._external_10.style.height='100px';
+					me._external_10.style.left = 'calc(50% - (100px / 2))';
+					me._external_10.style.top = 'calc(50% - (100px / 2))';
 					skin.updateSize(me._external_10);
 				}
 			}
@@ -17029,6 +17029,7 @@ function pano2vrSkin(player,base) {
 		}
 		el=me._bg0=document.createElement('div');
 		el.ggId="bg-\uac00\ub85c\uc138\ub85c";
+		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_rectangle ";
@@ -17040,7 +17041,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius : 50px;';
 		hs+='cursor : pointer;';
 		hs+='height : 60px;';
-		hs+='left : 0px;';
+		hs+='left : calc(50% - ((60px + 10px) / 2) + 0px);';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
@@ -17077,11 +17078,13 @@ function pano2vrSkin(player,base) {
 				if (me._bg0.ggCurrentLogicStateSize == 0) {
 					me._bg0.style.width='50px';
 					me._bg0.style.height='50px';
+					me._bg0.style.left = 'calc(50% - (50px / 2) + (10px / 2))';
 					skin.updateSize(me._bg0);
 				}
 				else {
 					me._bg0.style.width='60px';
 					me._bg0.style.height='60px';
+					me._bg0.style.left = 'calc(50% - (60px / 2) + (10px / 2))';
 					skin.updateSize(me._bg0);
 				}
 			}
@@ -17153,7 +17156,7 @@ function pano2vrSkin(player,base) {
 		hs+='background : #fe9900;';
 		hs+='border : 2px solid #ffffff;';
 		hs+='border-radius : 50px;';
-		hs+='cursor : default;';
+		hs+='cursor : pointer;';
 		hs+='height : 100%;';
 		hs+='left : calc(50% - ((100% + 4px) / 2) + 0px);';
 		hs+='position : absolute;';
@@ -17203,6 +17206,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
+		hs+='cursor : pointer;';
 		hs+='height : 19px;';
 		hs+='left : calc(50% - ((28px + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
@@ -17233,7 +17237,7 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="Text 6";
-		el.ggDx=0;
+		el.ggDx=10;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
@@ -17242,11 +17246,11 @@ function pano2vrSkin(player,base) {
 		hs+='background : rgba(255,255,255,0.705882);';
 		hs+='border : 0px solid #000000;';
 		hs+='border-radius : 20px;';
-		hs+='bottom : -45px;';
+		hs+='bottom : -25px;';
 		hs+='color : rgba(34,34,34,1);';
 		hs+='cursor : pointer;';
 		hs+='height : 30px;';
-		hs+='left : calc(50% - ((100px + 0px) / 2) + 0px);';
+		hs+='left : calc(50% - ((100px + 0px) / 2) + 10px);';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 100px;';
